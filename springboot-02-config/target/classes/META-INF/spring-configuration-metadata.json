@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "dog",
+      "type": "com.albert.springboot02config.pojo.Dog",
+      "sourceType": "com.albert.springboot02config.pojo.Dog"
+    },
+    {
+      "name": "person",
+      "type": "com.albert.springboot02config.pojo.Person",
+      "sourceType": "com.albert.springboot02config.pojo.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "dog.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.albert.springboot02config.pojo.Dog"
+    },
+    {
+      "name": "dog.name",
+      "type": "java.lang.String",
+      "sourceType": "com.albert.springboot02config.pojo.Dog"
+    },
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.albert.springboot02config.pojo.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.albert.springboot02config.pojo.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "com.albert.springboot02config.pojo.Dog",
+      "sourceType": "com.albert.springboot02config.pojo.Person"
+    },
+    {
+      "name": "person.happy",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.albert.springboot02config.pojo.Person"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.albert.springboot02config.pojo.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.albert.springboot02config.pojo.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.albert.springboot02config.pojo.Person"
+    }
+  ],
+  "hints": []
+}

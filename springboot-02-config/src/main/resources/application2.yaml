@@ -1,0 +1,28 @@
+# qinjiang.properties
+
+# k=v
+# 空格不能省略
+
+# 普通的key=value
+name: value
+
+
+# 对象
+student:
+  name: value
+  age: 3
+
+# 行内写法
+student2: {name: qinjiang, age: 3}
+
+# 数组
+pets:
+  - cat
+  - dog
+  - pig
+
+pets2: [cat,dog,pig]
+
+
+server:
+  port: 8080

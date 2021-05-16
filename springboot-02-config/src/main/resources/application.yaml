@@ -1,0 +1,35 @@
+person:
+  name: qiuqiu@163.com
+  age: 20
+  happy: false
+  birth: 2021/5/13
+  maps: {k1:v1,k2:v2}
+  lists:
+    - code
+    - music
+  dog:
+    name: tom
+    age: 3
+dog:
+#  name: 旺财${random.int}
+#  name: 旺财
+  name: ${Person.name:qiu}-旺财
+  age: 2
+
+# 多环境配置及配置文件位置
+server:
+  port: 8081
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8082
+spring:
+  profiles: test
+---
+server:
+  port: 8083
+spring:
+  profiles: dev
+#debug: true

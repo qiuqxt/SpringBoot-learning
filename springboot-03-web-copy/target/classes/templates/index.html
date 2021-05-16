@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!--所有的html元素都可以被 thymeleaf替换接管：	th:元素名-->
+    <p>首页定制</p>
+    <div th:text="${msg}"></div>
+
+    <div th:utext="${msg}"></div>
+
+    <div th:each="list: ${lists}" th:text="list"></div>
+
+</body>
+</html>
